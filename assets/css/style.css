@@ -544,6 +544,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     resize: none;
 }
 
+.contact-form #email {
+    width: calc(214%); /* Adjust the width here */
+}
+
 /*--contct button--*/
 .contact-form .single-contact-btn {
     display:flex;
@@ -562,8 +566,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition:.5s;
     transition: .5s;
 }
-.contact-form .single-contact-btn .contact-btn ,
-.contact-form .single-contact-btn .contact-btn:focus {
+.contact-form .single-contact-btn  ,
+.contact-form .single-contact-btn:focus {
     margin-top:0px;
     outline: 0 !important;
     border:0;
